@@ -1,5 +1,5 @@
 all:
-	meson bin --prefix /usr/
+	meson bin --prefix /dev_ws/src/gd_control/gd_control
 	cd bin; meson configure -D python=true
 	cd bin; ninja
 
